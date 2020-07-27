@@ -1,14 +1,12 @@
 # LPDD
 Linux + Powershell + DSC + Docker HowTo
 
-Add Microsoft software repository configuration https://docs.microsoft.com/en-us/windows-server/administration/Linux-Package-Repository-for-Microsoft-Software
-1.	Install PowerShell for Linux https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux
-2.	Install PowerShell DSC for Linux https://github.com/Microsoft/PowerShell-DSC-for-Linux
-a)	Install Open Management Infrastructure (OMI) server component –
-https://github.com/Microsoft/omi
-b)	Install DSC package –
-https://github.com/Microsoft/PowerShell-DSC-for-Linux/releases/latest
-3.	Enable OMI server to run on boot – 
+Add Microsoft software repository configuration - https://docs.microsoft.com/en-us/windows-server/administration/Linux-Package-Repository-for-Microsoft-Software
+1.	Install PowerShell for Linux - https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux
+2.	Install PowerShell DSC for Linux - https://github.com/Microsoft/PowerShell-DSC-for-Linux
+	a)	Install Open Management Infrastructure (OMI) server component – https://github.com/Microsoft/omi
+	b)	Install DSC package – https://github.com/Microsoft/PowerShell-DSC-for-Linux/releases/latest
+3.	Enable OMI server to run on boot –
 $ sudo systemctl enable omid.service
 Check listening ports and configuration –
 /opt/omi/etc/omiserver.conf
@@ -29,4 +27,3 @@ DSC with Linux - https://docs.microsoft.com/en-us/powershell/scripting/dsc/getti
 PowerShell module for managing Docker with DSC - https://github.com/walked/cDscDocker
 Useful links:
  - xDSCResourceDesigner project https://github.com/PowerShell/xDSCResourceDesigner
-
