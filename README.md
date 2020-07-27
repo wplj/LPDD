@@ -1,5 +1,5 @@
 # LPDD
-Linux + Powershell + DSC + Docker
+Linux + Powershell + DSC + Docker HowTo
 
 Add Microsoft software repository configuration https://docs.microsoft.com/en-us/windows-server/administration/Linux-Package-Repository-for-Microsoft-Software
 1.	Install PowerShell for Linux https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux
